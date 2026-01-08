@@ -34,23 +34,21 @@ The repository includes implementations of the following AI concepts:
   - Traveling Salesman Problem (TSP)
   - Water Jug Problem
 
----
 
-## 📂 Project Structure
+📂 Project Structure
 
 pai-programs/
 │
-├── aosearch.py # AO* search algorithm implementation
-├── asearch.py # A* search algorithm
-├── chaining.py # Rule-based inference using chaining
-├── fopl.py # First Order Predicate Logic examples
-├── gbfs.py # Greedy Best-First Search
-├── queen.py # N-Queens problem solution
-├── tictactoe.py # Tic-Tac-Toe game with AI logic
-├── tsp.py # Traveling Salesman Problem
-├── water_jug.py # Water Jug problem using state space search
-└── README.md # Project documentation
----
+├── aosearch.py 
+├── asearch.py 
+├── chaining.py 
+├── fopl.py 
+├── gbfs.py 
+├── queen.py
+├── tictactoe.py 
+├── tsp.py 
+├── water_jug.py 
+└── README.md 
 
 ## 🚀 Getting Started
 
@@ -102,7 +100,7 @@ Paradigm: Procedural & Object-Oriented Programming
 
 Domain: Artificial Intelligence
 
-📖 Learning Outcomes
+### 📖 Learning Outcomes
 By working with this repository, you will gain experience in:
 
 Designing and traversing state spaces
@@ -115,7 +113,7 @@ Understanding logic-based reasoning
 
 Implementing classic AI algorithms from scratch
 
-🤝 Contributions
+### 🤝 Contributions
 Contributions are welcome and appreciated.
 
 Steps to contribute:
