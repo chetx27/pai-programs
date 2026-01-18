@@ -1,0 +1,11 @@
+# PAI Programs - Python Requirements
+# This project currently uses only Python standard libraries
+# Python version: 3.6+
+
+# No external dependencies required for core functionality
+
+# Optional dependencies for development and testing:
+# pytest>=7.0.0  # For unit testing
+# black>=22.0.0  # For code formatting
+# pylint>=2.12.0 # For code linting
+# mypy>=0.950    # For type checking
