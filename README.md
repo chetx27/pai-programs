@@ -1,5 +1,9 @@
 # PAI Programs
 
+![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Code Style](https://img.shields.io/badge/code%20style-PEP8-orange)
+
 A comprehensive collection of fundamental Artificial Intelligence algorithms and problem-solving implementations in Python, designed with a focus on object-oriented programming principles and clean code architecture.
 
 ## Overview
@@ -57,13 +61,13 @@ The implementations in this repository follow these design principles:
 
 ### Prerequisites
 
-Python 3.x is required to run these programs. No external dependencies are needed as implementations use standard Python libraries.
+Python 3.6 or higher is required to run these programs. No external dependencies are needed as implementations use standard Python libraries.
 
 ### Installation
 
 Clone the repository to your local machine:
 
-```
+```bash
 git clone https://github.com/chetx27/pai-programs.git
 cd pai-programs
 ```
@@ -72,12 +76,12 @@ cd pai-programs
 
 Each Python file can be executed independently. Run any program using:
 
-```
+```bash
 python <filename>.py
 ```
 
 For example:
-```
+```bash
 python asearch.py
 python queen.py
 ```
@@ -96,11 +100,48 @@ For those new to AI algorithms, the following sequence is recommended:
 
 ## Contributing
 
-Contributions are welcome. Please ensure any additions maintain the repository's focus on educational clarity and OOP principles. When submitting pull requests, include clear documentation and follow the existing code style.
+Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+**Quick Guidelines:**
+- Follow OOP principles and PEP 8 style guide
+- Include clear documentation and comments
+- Test your code with multiple scenarios
+- Update README.md with your additions
+
+## References and Resources
+
+**Recommended Textbooks:**
+- "Artificial Intelligence: A Modern Approach" by Stuart Russell and Peter Norvig
+- "Introduction to Artificial Intelligence" by Wolfgang Ertel
+- "Artificial Intelligence: Foundations of Computational Agents" by David Poole and Alan Mackworth
+
+**Online Resources:**
+- [AI Algorithms Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- [MIT OpenCourseWare - Artificial Intelligence](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
+
+## Project Structure
+
+```
+pai-programs/
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── requirements.txt
+├── .gitignore
+├── asearch.py
+├── aosearch.py
+├── gbfs.py
+├── chaining.py
+├── fopl.py
+├── queen.py
+├── tsp.py
+├── water_jug.py
+└── tictactoe.py
+```
 
 ## License
 
-Please refer to the repository for license information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
@@ -109,3 +150,7 @@ Maintained by [chetx27](https://github.com/chetx27)
 ## Acknowledgments
 
 This repository is intended for educational purposes, implementing well-known algorithms from the field of Artificial Intelligence. The implementations are based on standard algorithmic approaches documented in AI literature and coursework.
+
+## Support
+
+If you find this repository helpful, please consider giving it a star! For questions or issues, please open an issue on GitHub.
