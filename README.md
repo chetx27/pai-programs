@@ -16,35 +16,35 @@ The repository includes implementations of the following algorithms and problem 
 
 ### Search Algorithms
 
-**A* Search (asearch.py)**  
+** A* Search (asearch.py) **  
 Implementation of the A* pathfinding algorithm, which combines the benefits of Dijkstra's algorithm and Greedy Best-First Search by using both the actual cost from the start node and a heuristic estimate to the goal.
 
-**AO* Search (aosearch.py)**  
+** AO* Search (aosearch.py) **  
 An AND-OR graph search algorithm designed for solving problems that can be decomposed into subproblems, particularly useful in game theory and planning scenarios.
 
-**Greedy Best-First Search (gbfs.py)**  
+** Greedy Best-First Search (gbfs.py) **  
 A heuristic-based search algorithm that expands nodes based on their estimated distance to the goal, prioritizing paths that appear to lead most directly to the solution.
 
 ### Logic and Reasoning
 
-**Forward Chaining (chaining.py)**  
+** Forward Chaining (chaining.py) **  
 An inference method for rule-based systems that starts with known facts and applies inference rules to derive new conclusions, working from premises to conclusions.
 
-**First-Order Predicate Logic (fopl.py)**  
+** First-Order Predicate Logic (fopl.py) **  
 Implementation of logical reasoning using predicates, quantifiers, and variables to represent and manipulate knowledge in a formal logical framework.
 
 ### Classic AI Problems
 
-**N-Queens Problem (queen.py)**  
+** N-Queens Problem (queen.py) **  
 A constraint satisfaction problem solver that places N chess queens on an N×N chessboard such that no two queens threaten each other.
 
-**Traveling Salesman Problem (tsp.py)**  
+** Traveling Salesman Problem (tsp.py) **  
 An optimization algorithm that finds the shortest possible route visiting a set of cities exactly once and returning to the origin city.
 
-**Water Jug Problem (water_jug.py)**  
+** Water Jug Problem (water_jug.py) **  
 A state-space search implementation that solves the classic puzzle of measuring exact quantities of water using containers of different capacities.
 
-**Tic-Tac-Toe (tictactoe.py)**  
+** Tic-Tac-Toe (tictactoe.py) **  
 A game-playing AI implementation, likely using minimax or similar algorithms to make optimal moves in the classic two-player game.
 
 ## Technical Approach
@@ -102,7 +102,7 @@ For those new to AI algorithms, the following sequence is recommended:
 
 Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-**Quick Guidelines:**
+** Quick Guidelines: **
 - Follow OOP principles and PEP 8 style guide
 - Include clear documentation and comments
 - Test your code with multiple scenarios
@@ -110,12 +110,12 @@ Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) fo
 
 ## References and Resources
 
-**Recommended Textbooks:**
+** Recommended Textbooks: **
 - "Artificial Intelligence: A Modern Approach" by Stuart Russell and Peter Norvig
 - "Introduction to Artificial Intelligence" by Wolfgang Ertel
 - "Artificial Intelligence: Foundations of Computational Agents" by David Poole and Alan Mackworth
 
-**Online Resources:**
+** Online Resources: **
 - [AI Algorithms Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 - [MIT OpenCourseWare - Artificial Intelligence](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/)
 
