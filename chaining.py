@@ -1,30 +1,29 @@
-facts = {'A'}
+facts = ['A']
+rules = [['A', 'B'], ['B', 'C'], ['C', 'G']]
 
-rules = {
-    'R1': {'if': {'A'}, 'then': 'B'},
-    'R2': {'if': {'B'}, 'then': 'C'},
-    'R3': {'if': {'C'}, 'then': 'G'}
-}
+def forward():
+    f = facts[:]
+    for _ in range(len(rules)):
+        for cond, res in rules:
+            if cond in f and res not in f:
+                f.append(res)
+    
+    if 'G' in f:
+        print("Using forward chaining: Goal Reached!")
+    else:
+        print("Using forward chaining: Goal Not Reached!")
 
-def forward_chaining():
-    changed = True
-    while changed:
-        changed = False
-        for rule in rules.values():
-            if rule['if'].issubset(facts) and rule['then'] not in facts:
-                facts.add(rule['then'])
-                changed = True
-    print("Using forward chaining: Goal Reached!" if 'G' in facts else "Using forward chaining: Goal Not Reached!")
-
-def backward_chaining(goal):
+def backward(goal):
     if goal in facts:
         return True
-    for rule in rules.values():
-        if rule['then'] == goal:
-            if all(backward_chaining(f) for f in rule['if']):
+    for cond, res in rules:
+        if res == goal:
+            if backward(cond):
                 return True
     return False
 
-forward_chaining()
-facts = {'A'}
-print("Using Backward Chaining: Goal Reachable!" if backward_chaining('G') else "Using Backward Chaining: Goal Not Reachable!")
+forward()
+if backward('G'):
+    print("Using Backward Chaining: Goal Reachable!")
+else:
+    print("Using Backward Chaining: Goal Not Reachable!")
